@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+button{
+  padding: 5px 20px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.window{
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  margin: 20px;
+}
+.slides{
+  width: 1200px;
+  height: 200px;
+  transition: all .5s linear;
+  display: inline-block;
+}
+ #img1,#img2,#img3{
+   width: 400px;
+   height: 200px;
+   float: left;
+ }
+ #img1{
+   background: #09B8BA;
+ }
+ #img2{
+   background: #6638F0;
+ }
+ #img3{
+   background: #4AF2A1;
+ }
